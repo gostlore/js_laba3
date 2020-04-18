@@ -1,4 +1,4 @@
-var expression = function(a, b, c = "Declaration1") {
+var expression = function(a, b, c = "expression1") {
     if (arguments.length == 0) {
         return console.log("Error")
     }
@@ -12,8 +12,8 @@ console.log(expression(1, 2));
 
 function declaration(a, b, c) {
     if (arguments.length == 0) {
-
-		return console.log(a += 1), console.log(b += 2), console.log(c += '_ok')
+	    
+	return console.log(a += 1), console.log(b += 2), console.log(c += '_ok')
 
     }
     return("false")
